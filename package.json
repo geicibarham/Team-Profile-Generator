@@ -1,4 +1,25 @@
 {
+  "name": "team-profile-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest --verbose __tests__/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geicibarham/Team-Profile-Generator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/geicibarham/Team-Profile-Generator/issues"
+  },
+  "homepage": "https://github.com/geicibarham/Team-Profile-Generator#readme",
   "devDependencies": {
     "jest": "^27.5.1"
   },
