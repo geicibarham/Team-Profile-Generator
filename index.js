@@ -12,7 +12,14 @@ team = [];
 
 const managerQuestions = () => {
 
-    console.log(`Welcome to Team Profile Generator :D`)
+    console.log(`
+    
+    =====================
+
+    Welcome to Team Profile Generator :D`
+    
+    
+    )
 
     return inquirer.prompt([
         {

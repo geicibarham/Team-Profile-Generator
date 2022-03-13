@@ -10,7 +10,7 @@ function generateCards(team) {
   let cards = [];
   for (let index = 0; index < team.length; index++) {
     const teamArray = team[index];
-    // console.log(teamArray.getRole());
+   
     const role = teamArray.getRole();
 
     switch (role) {
@@ -104,7 +104,7 @@ let generateInternCard = (Intern) => {
 }
 
 function generateTeam(team) {
-  console.log(team);
+ 
   return `
     <!DOCTYPE html>
         <html lang="en">
