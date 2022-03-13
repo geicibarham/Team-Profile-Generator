@@ -43,11 +43,15 @@ background-color: #8ef6e4!important;
    background-color:#edb1f1;
 
 }
-.id{
+.link{
     border-bottom: solid 1px grey;
     text-decoration: none;
 }
 .email{
     text-decoration: none;
     color:black;    
+}
+
+a{
+    text-decoration: none;
 }

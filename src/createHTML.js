@@ -48,7 +48,7 @@ let generateManagerCard = (Manager) => {
     <div class="card-body">
       <div class="color-body">
         <p class="id">Id:${Manager.id} </p>
-        <p class="id">Email: <a href="mailto:${Manager.email}">${Manager.email}</a>
+        <p class="id link">Email: <a href="mailto:${Manager.email}">${Manager.email}</a>
         <p> Office Number:${Manager.getOfficeNumber()}</p>
       </div>
     </div>
@@ -70,7 +70,7 @@ let generateEngineerCard = (Engineer) => {
     </div>
     <div class="card-body">
       <div class="color-body">
-        <p class="id">Id:${Engineer.getId()} </p>
+        <p class="id link">Id:${Engineer.getId()} </p>
         <p class="id">Email: <a href="mailto:${Engineer.email}"> ${Engineer.email}</a>
         <p> Github: <a href ="https://github.com/${Engineer.getGithub()}"> Link </a></p>
       </div>
@@ -90,7 +90,6 @@ let generateInternCard = (Intern) => {
     <i class="fa-solid fa-graduation-cap"></i>
     <h4>  ${Intern.name}<h4>
     <h4> ${Intern.getRole()} <h4>
-      <br>
     </div>
     <div class="card-body">
       <div class="color-body">
