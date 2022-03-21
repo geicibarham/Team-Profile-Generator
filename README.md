@@ -28,7 +28,7 @@ clone the repo from Github, then install npm, node.js, in case you don't have it
     
 Use it to generate a webpage with team group information. For more details, please watch video:
 
-https://drive.google.com/file/d/11Leb0fUagaICHmFPkDRXNVkJeEqLZYVz/view
+https://drive.google.com/file/d/1C3hGJzdZRQaeT42NR_Iv3e1Gbvr9zn_c/view
 
 ![alt-text](https://github.com/geicibarham/Team-Profile-Generator/blob/main/src/Screenshot%20(62).png)
     
